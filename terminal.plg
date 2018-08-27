@@ -1,0 +1,107 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: terminal - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x409 /fo"Release/terminal.res" /d "NDEBUG" /d "_AFXDLL" "C:\Terminal\terminal.rc"" 
+Creating temporary file "C:\DOCUME~1\san\LOCALS~1\Temp\RSP4.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "_AFXDLL" /Fp"Release/terminal.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\Terminal\channel.cpp"
+"C:\Terminal\CImage.cpp"
+"C:\Terminal\Display.cpp"
+"C:\Terminal\MainFrm.cpp"
+"C:\Terminal\object.cpp"
+"C:\Terminal\Registration.cpp"
+"C:\Terminal\screen.cpp"
+"C:\Terminal\Setting.cpp"
+"C:\Terminal\softfont.cpp"
+"C:\Terminal\TBitmap.cpp"
+"C:\Terminal\telnetIO.cpp"
+"C:\Terminal\TelnetSocket.cpp"
+"C:\Terminal\Termcap.cpp"
+"C:\Terminal\terminal.cpp"
+"C:\Terminal\terminalDoc.cpp"
+"C:\Terminal\terminalView.cpp"
+"C:\Terminal\OpenGL.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\san\LOCALS~1\Temp\RSP4.tmp" 
+Creating temporary file "C:\DOCUME~1\san\LOCALS~1\Temp\RSP5.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "_AFXDLL" /Fp"Release/terminal.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\Terminal\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\san\LOCALS~1\Temp\RSP5.tmp" 
+Creating temporary file "C:\DOCUME~1\san\LOCALS~1\Temp\RSP6.tmp" with contents
+[
+BINMODE.OBJ /nologo /subsystem:windows /incremental:no /pdb:"Release/UnixSpace.pdb" /machine:I386 /out:"Release/UnixSpace.exe" 
+.\Release\channel.obj
+.\Release\CImage.obj
+.\Release\Display.obj
+.\Release\MainFrm.obj
+.\Release\object.obj
+.\Release\Registration.obj
+.\Release\screen.obj
+.\Release\Setting.obj
+.\Release\softfont.obj
+.\Release\StdAfx.obj
+.\Release\TBitmap.obj
+.\Release\telnetIO.obj
+.\Release\TelnetSocket.obj
+.\Release\Termcap.obj
+.\Release\terminal.obj
+.\Release\terminalDoc.obj
+.\Release\terminalView.obj
+.\Release\terminal.res
+.\Release\OpenGL.obj
+]
+Creating command line "link.exe @C:\DOCUME~1\san\LOCALS~1\Temp\RSP6.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+
+NOTE: WINVER has been defined as 0x0500 or greater which enables
+Windows NT 5.0 and Windows 98 features. When these headers were released,
+Windows NT 5.0 beta 1 and Windows 98 beta 2.1 were the current versions.
+
+For this release when WINVER is defined as 0x0500 or greater, you can only
+build beta or test applications.  To build a retail application,
+set WINVER to 0x0400 or visit http://www.microsoft.com/msdn/sdk
+to see if retail Windows NT 5.0 or Windows 98 headers are available.
+
+See the SDK release notes for more information.
+
+Compiling...
+channel.cpp
+CImage.cpp
+Display.cpp
+MainFrm.cpp
+object.cpp
+Registration.cpp
+screen.cpp
+Setting.cpp
+softfont.cpp
+TBitmap.cpp
+telnetIO.cpp
+TelnetSocket.cpp
+Termcap.cpp
+terminal.cpp
+terminalDoc.cpp
+terminalView.cpp
+OpenGL.cpp
+C:\Terminal\OpenGL.cpp(403) : warning C4244: '-=' : conversion from 'double' to 'float', possible loss of data
+C:\Terminal\OpenGL.cpp(404) : warning C4244: '-=' : conversion from 'double' to 'float', possible loss of data
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+UnixSpace.exe - 0 error(s), 2 warning(s)
+</pre>
+</body>
+</html>
